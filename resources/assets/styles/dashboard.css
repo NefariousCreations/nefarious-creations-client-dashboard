@@ -1434,6 +1434,7 @@ body.login {
     background: #364052 !important;
 }
 
-body.login #login > h1 {
-    display: none;
+#login h1 a, .login h1 a {
+    background-image: url('../images/nefarious-creations-favicon.svg');
+    padding-bottom: 30px;
 }
