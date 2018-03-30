@@ -23,18 +23,6 @@ a:focus {
     box-shadow: none;
 }
 
-/*
- * Essential grid plugin compatibility
- * http://codecanyon.net/item/essential-grid-wordpress-plugin/7563340
- */
-#eg-wrap .button, #eg-wrap .acf-button,
-#eg-wrap .add-new-h2,
-#eg-wrap .button-primary,
-#eg-wrap .page-title-action,
-#eg-wrap .button-primary {
-    padding: 0 10px !important;
-}
-
 a {
     color: #364052;
 }
