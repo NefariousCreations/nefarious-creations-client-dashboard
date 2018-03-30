@@ -1430,11 +1430,15 @@ input[type=radio]:checked:before {
 /**
  * Login Page Styles
  */
+
 body.login {
     background: #364052 !important;
 }
 
-#login h1 a, .login h1 a {
-    background-image: url('../images/nefarious-creations-favicon.png');
-    padding-bottom: 30px;
+#login h1 {
+    margin-bottom: 60px;
+}
+
+#login h1 a {
+    background-image: url('../images/nefarious-creations-favicon-inverse.png');
 }
