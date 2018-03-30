@@ -1,3 +1,7 @@
+/**
+ * Admin Bar Defaults
+ */
+
 #wpadminbar {
     height: 44px;
 }
@@ -44,7 +48,10 @@
     color: white;
 }
 
-#wpadminbar {
+/**
+ * WordPress Admin
+ */
+.wp-admin #wpadminbar {
     left: 250px;
     z-index: 9998 !important;
     width: calc(100% - 250px);
@@ -56,37 +63,37 @@
     border-bottom: thin solid #e0e0e0;
 }
 
-#wpadminbar * {
+.wp-admin #wpadminbar * {
     color: #364052 !important;
 }
 
-#wpadminbar li a.ab-item,
-#wpadminbar li .ab-sub-wrapper {
+.wp-admin #wpadminbar li a.ab-item,
+.wp-admin #wpadminbar li .ab-sub-wrapper {
     color: #364052 !important;
     background-color: #F2F2F2 !important;
 }
 
-#wpadminbar li a:focus span {
+.wp-admin #wpadminbar li a:focus span {
     color: #FF8174 !important;
 }
 
-#wpadminbar li span,
-#wpadminbar li a:before,
-#wpadminbar li a span.ab-icon,
-#wpadminbar li a span.ab-icon:before {
+.wp-admin #wpadminbar li span,
+.wp-admin #wpadminbar li a:before,
+.wp-admin #wpadminbar li a span.ab-icon,
+.wp-admin #wpadminbar li a span.ab-icon:before {
     color: #364052 !important;
 }
 
-#wpadminbar li:hover > a,
-#wpadminbar li:hover > a span {
+.wp-admin #wpadminbar li:hover > a,
+.wp-admin #wpadminbar li:hover > a span {
     color: #FF8174 !important;
 }
 
-#wpadminbar #adminbarsearch:before {
+.wp-admin #wpadminbar #adminbarsearch:before {
     color: #364052 !important;
 }
 
-body.folded #wpcontent #wpadminbar {
+body.folded.wp-admin #wpcontent #wpadminbar {
     left: 36px;
     width: calc(100% - 36px);
 }
@@ -95,7 +102,7 @@ body.folded #wpcontent #wpadminbar {
  * Responsiveness
  */
 @media only screen and (max-width: 960px) {
-    #wpadminbar {
+    .wp-admin #wpadminbar {
         left: 0 !important;
         width: 100% !important;
         padding-left: 0;
@@ -103,15 +110,41 @@ body.folded #wpcontent #wpadminbar {
 }
 
 @media only screen and (max-width: 782px) {
-    #wpadminbar {
+    .wp-admin #wpadminbar {
         padding-right: 0;
     }
 
-    #wpadminbar #wp-admin-bar-menu-toggle a {
+    .wp-admin #wpadminbar #wp-admin-bar-menu-toggle a {
         border: none !important;
     }
 
-    #wpadminbar div.quicklinks ul#wp-admin-bar-root-default li a:before, #wpadminbar div.quicklinks ul#wp-admin-bar-root-default li a span.ab-icon, #wpadminbar div.quicklinks ul#wp-admin-bar-top-secondary li a:before, #wpadminbar div.quicklinks ul#wp-admin-bar-top-secondary li a span.ab-icon {
+    .wp-admin #wpadminbar div.quicklinks ul#wp-admin-bar-root-default li a:before, #wpadminbar div.quicklinks ul#wp-admin-bar-root-default li a span.ab-icon, #wpadminbar div.quicklinks ul#wp-admin-bar-top-secondary li a:before, #wpadminbar div.quicklinks ul#wp-admin-bar-top-secondary li a span.ab-icon {
         font: 400 32px/1 dashicons !important;
     }
+}
+
+/**
+ * Front End
+ */
+:not(.wp-admin) #wpadminbar {
+    background: #242B37;
+}
+
+:not(.wp-admin) #wpadminbar * {
+    color: white !important;
+}
+
+:not(.wp-admin) #wpadminbar li a.ab-item,
+:not(.wp-admin) #wpadminbar li .ab-sub-wrapper {
+    color: white !important;
+    background-color: #242B37 !important;
+}
+
+:not(.wp-admin) #wpadminbar li a:focus span {
+    color: #4BA0D9 !important;
+}
+
+:not(.wp-admin) #wpadminbar li:hover > a,
+:not(.wp-admin) #wpadminbar li:hover > a span {
+    color: #4BA0D9 !important;
 }
