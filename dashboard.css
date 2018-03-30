@@ -1426,3 +1426,14 @@ input[type=radio]:checked:before {
         top: 0;
     }
 }
+
+/**
+ * Login Page Styles
+ */
+body.login {
+    background: #364052 !important;
+}
+
+body.login #login > h1 {
+    display: none;
+}
