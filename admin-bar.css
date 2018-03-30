@@ -1,0 +1,117 @@
+#wpadminbar {
+    height: 44px;
+}
+
+#wpadminbar li#wp-admin-bar-wp-logo {
+    display: none !important;
+}
+
+#wpadminbar ul#wp-admin-bar-root-default li a,
+#wpadminbar ul#wp-admin-bar-top-secondary li a {
+    height: 44px;
+    padding: 0 10px !important;
+    color: white;
+    font: 400 13px/44px "Open Sans", sans-serif;
+}
+
+#wpadminbar ul#wp-admin-bar-root-default li a:before,
+#wpadminbar ul#wp-admin-bar-root-default li a span.ab-icon,
+#wpadminbar ul#wp-admin-bar-top-secondary li a:before,
+#wpadminbar ul#wp-admin-bar-top-secondary li a span.ab-icon {
+    top: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    color: white;
+    font: 400 20px/42px dashicons !important;
+}
+
+#wpadminbar ul#wp-admin-bar-root-default li a span.ab-icon:before,
+#wpadminbar ul#wp-admin-bar-top-secondary li a span.ab-icon:before {
+    color: white;
+}
+
+#wpadminbar ul#wp-admin-bar-root-default li span,
+#wpadminbar ul#wp-admin-bar-top-secondary li span {
+    color: white;
+    opacity: 1;
+}
+
+#wpadminbar #adminbarsearch {
+    margin-top: 6px;
+}
+
+#wpadminbar #adminbarsearch:before {
+    color: white;
+}
+
+#wpadminbar {
+    left: 250px;
+    z-index: 9998 !important;
+    width: calc(100% - 250px);
+    height: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    background: #F2F2F2;
+    border-bottom: thin solid #e0e0e0;
+}
+
+#wpadminbar * {
+    color: #364052 !important;
+}
+
+#wpadminbar li a.ab-item,
+#wpadminbar li .ab-sub-wrapper {
+    color: #364052 !important;
+    background-color: #F2F2F2 !important;
+}
+
+#wpadminbar li a:focus span {
+    color: #FF8174 !important;
+}
+
+#wpadminbar li span,
+#wpadminbar li a:before,
+#wpadminbar li a span.ab-icon,
+#wpadminbar li a span.ab-icon:before {
+    color: #364052 !important;
+}
+
+#wpadminbar li:hover > a,
+#wpadminbar li:hover > a span {
+    color: #FF8174 !important;
+}
+
+#wpadminbar #adminbarsearch:before {
+    color: #364052 !important;
+}
+
+body.folded #wpcontent #wpadminbar {
+    left: 36px;
+    width: calc(100% - 36px);
+}
+
+/*
+ * Responsiveness
+ */
+@media only screen and (max-width: 960px) {
+    #wpadminbar {
+        left: 0 !important;
+        width: 100% !important;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    #wpadminbar {
+        padding-right: 0;
+    }
+
+    #wpadminbar #wp-admin-bar-menu-toggle a {
+        border: none !important;
+    }
+
+    #wpadminbar div.quicklinks ul#wp-admin-bar-root-default li a:before, #wpadminbar div.quicklinks ul#wp-admin-bar-root-default li a span.ab-icon, #wpadminbar div.quicklinks ul#wp-admin-bar-top-secondary li a:before, #wpadminbar div.quicklinks ul#wp-admin-bar-top-secondary li a span.ab-icon {
+        font: 400 32px/1 dashicons !important;
+    }
+}
