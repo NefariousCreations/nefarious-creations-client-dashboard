@@ -38,7 +38,7 @@ add_action('wp_enqueue_scripts', 'admin_bar_styles');
 
 // Custom Admin Signature
 add_filter('admin_footer_text', function (){
-    echo '<span id="footer-note"><a href="https://nefariouscreations.com.au" target="_blank"><img src="' . plugins_url('resources/assets/images/nefarious-creations-favicon.png', __FILE__) . '" height="24px">nefariouscreations.com.au</a></span>';
+    echo '<span id="footer-note"><a href="https://nefariouscreations.com.au" target="_blank"><img src="' . plugins_url('resources/assets/images/nefarious-creations-website-url-logo.svg', __FILE__) . '" height="24px" title="Nefarious Creations"></a></span>';
 });
 
 /**
