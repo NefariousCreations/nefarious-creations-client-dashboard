@@ -126,25 +126,25 @@ body.folded.wp-admin #wpcontent #wpadminbar {
 /**
  * Front End
  */
-:not(.wp-admin) #wpadminbar {
+body:not(.wp-admin) #wpadminbar {
     background: #242B37;
 }
 
-:not(.wp-admin) #wpadminbar * {
+body:not(.wp-admin) #wpadminbar * {
     color: white !important;
 }
 
-:not(.wp-admin) #wpadminbar li a.ab-item,
-:not(.wp-admin) #wpadminbar li .ab-sub-wrapper {
+body:not(.wp-admin) #wpadminbar li a.ab-item,
+body:not(.wp-admin) #wpadminbar li .ab-sub-wrapper {
     color: white !important;
     background-color: #242B37 !important;
 }
 
-:not(.wp-admin) #wpadminbar li a:focus span {
+body:not(.wp-admin) #wpadminbar li a:focus span {
     color: #4BA0D9 !important;
 }
 
-:not(.wp-admin) #wpadminbar li:hover > a,
-:not(.wp-admin) #wpadminbar li:hover > a span {
+body:not(.wp-admin) #wpadminbar li:hover > a,
+body:not(.wp-admin) #wpadminbar li:hover > a span {
     color: #4BA0D9 !important;
 }
