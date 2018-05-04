@@ -3,3 +3,4 @@
 vendor/*
 !vendor/yahnis-elsts
 composer.lock
+.idea/*
