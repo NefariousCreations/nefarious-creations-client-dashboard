@@ -20,8 +20,6 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 
 $myUpdateChecker->setBranch('master');
 
-$myUpdateChecker->setBranch('branch-name');
-
 /**
  * Load Style Sheets
  */
