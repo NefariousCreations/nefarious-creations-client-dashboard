@@ -13,10 +13,14 @@
  */
 require 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-  'https://github.com/NefariousCreations/nefarious-creations-client-dashboard/blob/master/package.json',
+  'https://github.com/NefariousCreations/nefarious-creations-client-dashboard/',
   __FILE__, //Full path to the main plugin file or functions.php.
   'nefarious-creations-client-dashboard'
 );
+
+$myUpdateChecker->setBranch('master');
+
+$myUpdateChecker->setBranch('branch-name');
 
 /**
  * Load Style Sheets
