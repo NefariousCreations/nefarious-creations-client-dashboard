@@ -9,6 +9,16 @@
  */
 
 /**
+ * Load Plugin Update Checker
+ */
+require 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+  'https://github.com/NefariousCreations/nefarious-creations-client-dashboard/blob/master/package.json',
+  __FILE__, //Full path to the main plugin file or functions.php.
+  'nefarious-creations-client-dashboard'
+);
+
+/**
  * Load Style Sheets
  */
 
