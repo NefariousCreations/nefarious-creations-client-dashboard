@@ -1,5 +1,10 @@
 {
   "name": "NefariousCreations/nefarious-creations-client-dashboard",
+  "version" : "1.0.1",
+  "download_url" : "https://github.com/NefariousCreations/nefarious-creations-client-dashboard",
+  "sections" : {
+    "description" : "This is a customised WordPress dashboard for Nefarious Creations clients."
+  }
   "type": "wordpress-plugin",
   "description": "This is a customised WordPress dashboard for Nefarious Creations clients.",
   "homepage": "https://nefariouscreations.com.au",
