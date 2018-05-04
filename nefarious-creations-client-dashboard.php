@@ -3,7 +3,7 @@
  * Plugin Name: Nefarious Creations Client Dashboard
  * Plugin URI: https://github.com/NefariousCreations/nefarious-creations-client-dashboard
  * Description: This is a customised WordPress dashboard for Nefarious Creations clients.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Nefarious Creations
  * Author URI: https://nefariouscreations.com.au
  */
