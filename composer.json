@@ -1,0 +1,19 @@
+{
+  "name": "NefariousCreations/nefarious-creations-client-dashboard",
+  "type": "wordpress-plugin",
+  "description": "This is a customised WordPress dashboard for Nefarious Creations clients.",
+  "homepage": "https://nefariouscreations.com.au",
+  "authors": [
+    {
+      "name": "Corey Crowden",
+      "email": "corey@nefariouscreations.com.au",
+      "homepage": "https://nefariouscreations.com.au"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "yahnis-elsts/plugin-update-checker": "*"
+  }
+}
