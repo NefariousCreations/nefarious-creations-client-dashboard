@@ -1051,9 +1051,12 @@ body.tamed-theme-clean.folded #adminmenu .wp-not-current-submenu .wp-submenu {
     background-color: #F2F2F2;
 }
 
+/*
+ * Removed to prevent unwanted white background on some page header
 #wpbody #wpbody-content .wrap .nav-tab-wrapper {
     background-color: white;
 }
+*/
 
 #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab.nav-tab-active, #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab:hover {
     border-bottom: 3px solid #FF8174;
