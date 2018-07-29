@@ -60,12 +60,13 @@ remove_action('welcome_panel', 'wp_welcome_panel' );
 add_action('welcome_panel', function (){ ?>
 
     <div class="custom-welcome-panel-content">
-        <h1><?php _e( 'Welcome back!' ); ?></h1>
-        <p class="about-description"><?php _e( 'This is where you get things.' ); ?></p>
+        <h1><?php _e( 'Welcome!' ); ?></h1>
+        <p class="about-description"><?php _e( '.' ); ?></p>
         <div class="welcome-panel-column-container">
             <div class="welcome-panel-column">
-                <h4><?php _e( "Let's Get Started" ); ?></h4>
-                <a class="button button-primary button-hero load-customize hide-if-no-customize" href="http://your-website.com"><?php _e( 'Call me maybe !' ); ?></a>
+              <h4><?php _e( "If you need support or you're experiencing any issues please get in touch with me." ); ?></h4>
+              <a class="button button-primary load-customize hide-if-no-customize" href="https://nefariouscreations.com.au"><?php _e( 'nefariouscreations.com.au' ); ?></a>
+              <a class="button button-primary load-customize hide-if-no-customize" href="mailto:corey@nefariouscreations.com.au"><?php _e( 'corey@nefariouscreations.com.au' ); ?></a>
             </div><!-- .welcome-panel-column -->
             <div class="welcome-panel-column">
 
